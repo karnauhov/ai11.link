@@ -1,0 +1,46 @@
+[
+  {
+    "id": 0,
+    "slug": "revelation",
+    "name": "A cross-platform app for exploring Revelation",
+    "title": "Revelation",
+    "description": "An app for in-depth study of the Book of Revelation, starting with the examination of primary-source manuscripts (papyri and uncials).",
+    "platforms": "Web & Mobile & Desktop ",
+    "lastUpdatedEpochMs": 1754560800000,
+    "fullDescription": "This is an educational and missionary open-source project aimed at shaping a clearer, Bible-based understanding of one of the most complex and frequently misunderstood books - the Book of Revelation.\n\nThe main concept of the Revelation application is to provide users with a structured, authoritative, and accessible tool for both familiarizing themselves with the Book of Revelation and studying it in depth, while avoiding speculative and non-biblical interpretations.\n\nThe methodology is based on the principle outlined at the very beginning of the book. The principle emphasizes the importance of reading, hearing, and keeping what is written in Revelation.\n\n- Reading is presented in 2 stages: reading the original sources, and a complete grammatical and syntactic analysis of what is written.\n- Hearing (leading to understanding) is presented in 3 important stages: identifying and analyzing Old Testament allusions, viewing the texts in the light of the life and ministry of Jesus Christ, and searching for structures and connections with other parts of Revelation and the entire Bible.\n- Keeping is presented in 2 stages: understanding how and which prophecies have been fulfilled in the history of the church and all humanity, and which are still awaiting fulfillment. Also, the last but one of the most important stages is aimed at each person looking into their own life in the light of what they have read and understood, to decide whether something needs to be changed in it.",
+    "image": "Revelation.png",
+    "video": "Revelation.mp4",
+    "links": [
+      {
+        "name": "Site",
+        "url": "https://www.revelation.website"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/karnauhov/Revelation"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "slug": "playas",
+    "name": "App with information about nearby beaches",
+    "title": "Playas",
+    "description": "An app for viewing up-to-date information about beaches, including meteorological data, security flags and other useful information.",
+    "platforms": "Web & Mobile",
+    "lastUpdatedEpochMs": 1760954400000,
+    "fullDescription": "One common problem you may encounter is not knowing the beach safety flag in advance - in short, whether swimming is currently permitted. Often you only find this out after you arrive.\n\nPlayas.click was created to prevent such problems.\n\nOn first launch you will see all the essential information about beaches close to you. The data is displayed as cards showing an overview photo, the beach name, surface type as the card background, full weather info, safety flags and additional icons.\n\nYou can also search for beaches in another area and set a search radius. Beaches are sorted by distance from the chosen location. To get directions to a selected beach, tap the navigation button - Google Maps will open with the route. In upcoming versions, tapping a card will open a detailed beach profile containing all collected information: photos, ratings, reviews, live webcams, on-beach services, rules, and more.",
+    "image": "Playas.png",
+    "video": "Playas.mp4",
+    "links": [
+      {
+        "name": "Site",
+        "url": "https://playas.click"
+      },
+      {
+        "name": "Presentation",
+        "url": "https://youtu.be/fGGmHMwLBgk"
+      }
+    ]
+  }
+]
