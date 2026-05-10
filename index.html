@@ -50,36 +50,6 @@
   <meta name="description" content="Aggregating info in convenient, useful apps" />
   <link rel="manifest" href="manifest.json">
   
-  <!-- GitHub Pages SPA Routing Support -->
-  <script>
-    (function() {
-      // Decode URL from 404.html redirect for GitHub Pages
-      // 404.html encodes the path as: /?/path/to/page
-      // We decode it back to: /path/to/page
-      
-      var redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      
-      if (redirect && window.location.pathname === '/' && redirect !== '/') {
-        // Restore the original path
-        window.history.replaceState(null, null, redirect.replace(/~and~/g, '&'));
-      }
-      
-      // Alternative: decode from query parameter if 404.html used that method
-      var search = window.location.search;
-      if (search.startsWith('?/')) {
-        // Extract the original path from the encoded search
-        var decodedPath = '/' + search.slice(2).split('&')[0].replace(/~and~/g, '&');
-        if (decodedPath !== '/' && window.location.pathname === '/') {
-          // Add back remaining search parameters
-          var remainingSearch = search.slice(search.indexOf('&') + 1);
-          var fullPath = decodedPath + (remainingSearch ? '&' + remainingSearch : '') + window.location.hash;
-          window.history.replaceState(null, null, fullPath.replace(/~and~/g, '&'));
-        }
-      }
-    })();
-  </script>
-  
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
