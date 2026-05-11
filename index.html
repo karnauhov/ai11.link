@@ -18,6 +18,22 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var redirect = params.get('redirect');
+      if (!redirect) {
+        return;
+      }
+      params.delete('redirect');
+      var query = params.toString();
+      window.history.replaceState(
+        null,
+        '',
+        redirect + (query ? (redirect.indexOf('?') === -1 ? '?' : '&') + query : '')
+      );
+    })();
+  </script>
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
