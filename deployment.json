@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "version": "1.0.0",
+  "build": 28,
+  "source_repository": "karnauhov/ai11",
+  "source_sha": "7de81f5f99a6a8b594f26b63cfee2be12035002c",
+  "release_url": "https://github.com/karnauhov/ai11/releases/tag/auto-v1.0.0-b28-7de81f5f",
+  "web_package": {
+    "name": "ai11-web-1.0.0+28.zip",
+    "sha256": "752fa0b16c4bc928833edce62d9b1e1efd81e03f204a13ae5db2bf3987fa700d"
+  },
+  "main_dart_js_sha256": "21046f54d2817d806cc27e717bbeb518f6ec11853e302e5b89f413ddc6511168"
+}
